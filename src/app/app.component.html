@@ -42,8 +42,8 @@
     height: 60px;
     display: flex;
     align-items: center;
-    background-color: #d21919;
-    color: white;
+    background-color: #8819d2;
+    color: rgb(255, 255, 255);
     font-weight: 600;
   }
 
@@ -52,7 +52,7 @@
   }
 
   .toolbar #twitter-logo {
-    height: 70px;
+    height: 40px;
     margin: 0 8px;
   }
 
@@ -63,7 +63,7 @@
 
   .toolbar #twitter-logo:hover,
   .toolbar #youtube-logo:hover {
-    opacity: 0.8;
+    opacity: 0.5;
   }
 
   .content {
@@ -85,7 +85,7 @@
   }
 
   .card svg.material-icons path {
-    fill: #888;
+    fill: rgb(61, 0, 102);
   }
 
   .card-container {
@@ -98,8 +98,8 @@
   .card {
     all: unset;
     border-radius: 4px;
-    border: 1px solid #eee;
-    background-color: #fafafa;
+    border: 1px solid rgb(255, 72, 72);
+    background-color: #e3fb75;
     height: 40px;
     width: 200px;
     margin: 0 8px 16px;
@@ -122,16 +122,16 @@
   }
 
   .card-container .card:not(.highlight-card) {
-    cursor: pointer;
+    cursor:pointer;
   }
 
   .card-container .card:not(.highlight-card):hover {
     transform: translateY(-3px);
-    box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
+    box-shadow: 0 4px 17px rgba(228, 0, 0, 0.35);
   }
 
   .card-container .card:not(.highlight-card):hover .material-icons path {
-    fill: rgb(105, 103, 103);
+    fill: rgb(0, 247, 255);
   }
 
   .card.highlight-card {
@@ -166,12 +166,12 @@
   a,
   a:visited,
   a:hover {
-    color: #1976d2;
+    color: #ff5adb;
     text-decoration: none;
   }
 
   a:hover {
-    color: #125699;
+    color: #ff00c8;
   }
 
   .terminal {
@@ -182,7 +182,7 @@
     padding-top: 45px;
     margin-top: 8px;
     overflow: hidden;
-    background-color: rgb(15, 15, 16);
+    background-color: rgb(0, 0, 172);
   }
 
   .terminal::before {
@@ -191,8 +191,8 @@
     top: 0;
     left: 0;
     height: 4px;
-    background: rgb(58, 58, 58);
-    color: #c2c3c4;
+    background: rgb(23, 133, 197);
+    color: #70b8ff;
     width: 100%;
     font-size: 2rem;
     line-height: 0;
@@ -202,7 +202,7 @@
 
   .terminal pre {
     font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
-    color: white;
+    color: rgb(206, 249, 255);
     padding: 0 1rem 1rem;
     margin: 0;
   }
@@ -212,19 +212,19 @@
     width: 40px;
     border-radius: 40px;
     margin: 8px;
-    background-color: white;
-    border: 1px solid #eeeeee;
+    background-color: rgb(255, 170, 170);
+    border: 1px solid #ff6969;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    box-shadow: 0 1px 3px #003b17c9, 0 1px 2px rgba(0, 0, 0, 0.24);
     transition: 1s ease-out;
   }
 
   .circle-link:hover {
     transform: translateY(-0.25rem);
-    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 3px 15px #003b17c9;
   }
 
   footer {
@@ -240,7 +240,7 @@
   }
 
   .github-star-badge {
-    color: #24292e;
+    color: #145697;
     display: flex;
     align-items: center;
     font-size: 12px;
@@ -309,7 +309,7 @@
     alt="Angular Logo"
     src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg=="
   />
-  <span>Welcome</span>
+  <span>Bem-vindo</span>
     <div class="spacer"></div>
     <a aria-label="Angular on twitter" target="_blank" rel="noopener" href="https://twitter.com/angular" title="Twitter">
       <svg id="twitter-logo" height="24" data-name="Logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
@@ -341,7 +341,7 @@
       </g>
     </svg>
 
-    <span>{{ title }} app is running!</span>
+    <span>{{ title }} está rodando!</span>
 
     <svg id="rocket-smoke" xmlns="http://www.w3.org/2000/svg" width="516.119" height="1083.632" viewBox="0 0 516.119 1083.632">
       <title>Rocket Ship Smoke</title>
@@ -357,32 +357,32 @@
   <div class="card-container">
     <a class="card" target="_blank" rel="noopener" href="https://angular.io/tutorial">
       <svg class="material-icons" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z"/></svg>
-      <span>Learn Angular</span>
+      <span>Aprenda Angular</span>
       <svg class="material-icons" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>    </a>
 
     <a class="card" target="_blank" rel="noopener" href="https://angular.io/cli">
       <svg class="material-icons" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"/></svg>
-      <span>CLI Documentation</span>
+      <span>Documentação CLI</span>
       <svg class="material-icons" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
     </a>
 
     <a class="card" target="_blank" rel="noopener" href="https://blog.angular.io/">
       <svg class="material-icons" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M13.5.67s.74 2.65.74 4.8c0 2.06-1.35 3.73-3.41 3.73-2.07 0-3.63-1.67-3.63-3.73l.03-.36C5.21 7.51 4 10.62 4 14c0 4.42 3.58 8 8 8s8-3.58 8-8C20 8.61 17.41 3.8 13.5.67zM11.71 19c-1.78 0-3.22-1.4-3.22-3.14 0-1.62 1.05-2.76 2.81-3.12 1.77-.36 3.6-1.21 4.62-2.58.39 1.29.59 2.65.59 4.04 0 2.65-2.15 4.8-4.8 4.8z"/></svg>
-      <span>Angular Blog</span>
+      <span>Blog Angular</span>
       <svg class="material-icons" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
     </a>
 
     <a class="card" target="_blank" rel="noopener" href="https://angular.io/devtools/">
       <svg class="material-icons" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><g><rect fill="none" height="24" width="24"/></g><g><g><path d="M14.73,13.31C15.52,12.24,16,10.93,16,9.5C16,5.91,13.09,3,9.5,3S3,5.91,3,9.5C3,13.09,5.91,16,9.5,16 c1.43,0,2.74-0.48,3.81-1.27L19.59,21L21,19.59L14.73,13.31z M9.5,14C7.01,14,5,11.99,5,9.5S7.01,5,9.5,5S14,7.01,14,9.5 S11.99,14,9.5,14z"/><polygon points="10.29,8.44 9.5,6 8.71,8.44 6.25,8.44 8.26,10.03 7.49,12.5 9.5,10.97 11.51,12.5 10.74,10.03 12.75,8.44"/></g></g></svg>
-      <span>Angular DevTools</span>
+      <span>Ferramentas de Desenvolvimento Angular</span>
       <svg class="material-icons" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
     </a>
 
   </div>
 
   <!-- Next Steps -->
-  <h2>Next Steps</h2>
-  <p>What do you want to do next with your app?</p>
+  <h2>Próximos passos</h2>
+  <p>Qual a próxima coisa que você quer fzer com sua app?</p>
 
   <input type="hidden" #selection>
 
